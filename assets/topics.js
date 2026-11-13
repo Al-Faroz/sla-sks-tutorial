@@ -3,13 +3,23 @@ const database = {
     {
       "id": "beranda",
       "group": "Mulai di sini",
-      "title": "Beranda & navigasi Guru",
-      "desc": "Pilih penugasan yang benar dan kenali pintu masuk pekerjaan sehari-hari.",
-      "prep": "Gunakan akun Guru yang sudah ditetapkan pada Gen–Mapel oleh Admin.",
+      "title": "Masuk & kenali Beranda Guru",
+      "desc": "Masuk ke SLA-SKS, lalu pilih Gen–Mapel dan semester yang ingin dipantau.",
+      "prep": "Siapkan NIP atau NIK yang terdaftar di madrasah.",
       "steps": [
         {
-          "title": "Masuk dengan akun Guru",
-          "text": "Buka aplikasi SLA-SKS dan masuk memakai akun dari madrasah. Pastikan penanda peran di bagian atas menunjukkan <b>Guru</b>.",
+          "title": "Buka halaman Masuk",
+          "text": "Buka <a href=\"https://sla-sks.mtsn4jombang.sch.id/masuk\">halaman Masuk SLA-SKS</a> di browser.",
+          "images": []
+        },
+        {
+          "title": "Isi Username dan Kata Sandi",
+          "text": "Pada kolom <b>Username / NISN</b>, masukkan <b>NIP atau NIK yang terdaftar di madrasah</b>. Saat pertama kali masuk, isi kolom <b>Kata Sandi</b> dengan <b>NIP atau NIK yang sama</b>. Jika sandi sudah diganti, gunakan sandi terbaru.",
+          "images": []
+        },
+        {
+          "title": "Klik Masuk dan periksa Beranda Guru",
+          "text": "Klik <b>Masuk</b>. Setelah Beranda terbuka, periksa nama akun dan pastikan penanda peran menunjukkan <b>Guru</b>. Untuk mengganti sandi awal, buka <b>Profil &amp; peran</b>.",
           "images": []
         },
         {
@@ -48,6 +58,10 @@ const database = {
       ],
       "result": "Anda sudah berada pada penugasan dan semester yang sesuai.",
       "faq": [
+        [
+          "Gagal masuk",
+          "Periksa kembali nomor yang terdaftar dan kata sandi. Jika tetap gagal, hubungi Admin madrasah."
+        ],
         [
           "Gen–Mapel tidak tersedia",
           "Minta Admin memeriksa penugasan Guru aktif pada Gen dan mata pelajaran terkait."
@@ -1364,13 +1378,23 @@ const database = {
     {
       "id": "mulai",
       "group": "Mulai belajar",
-      "title": "Masuk & kenali Beranda",
-      "desc": "Temukan pembelajaran yang tersedia dan lanjutkan kegiatan dari akun Anda sendiri.",
-      "prep": "Siapkan akun Siswa dari madrasah dan koneksi internet.",
+      "title": "Masuk & kenali Beranda Siswa",
+      "desc": "Masuk ke SLA-SKS, lalu lihat pembelajaran yang tersedia untuk akun Anda.",
+      "prep": "Siapkan NISN yang terdaftar di madrasah.",
       "steps": [
         {
-          "title": "Masuk menggunakan akun sendiri",
-          "text": "Buka SLA-SKS dan masuk dengan akun yang diberikan madrasah. Pastikan nama dan penanda peran <b>Siswa</b> di bagian atas benar.",
+          "title": "Buka halaman Masuk",
+          "text": "Buka <a href=\"https://sla-sks.mtsn4jombang.sch.id/masuk\">halaman Masuk SLA-SKS</a> di browser.",
+          "images": []
+        },
+        {
+          "title": "Isi Username dan Kata Sandi",
+          "text": "Pada kolom <b>Username / NISN</b>, masukkan <b>NISN yang terdaftar di madrasah</b>. Saat pertama kali masuk, isi kolom <b>Kata Sandi</b> dengan <b>NISN yang sama</b>. Jika sandi sudah diganti, gunakan sandi terbaru.",
+          "images": []
+        },
+        {
+          "title": "Klik Masuk dan periksa Beranda Siswa",
+          "text": "Klik <b>Masuk</b>. Setelah Beranda terbuka, periksa nama akun dan pastikan penanda peran menunjukkan <b>Siswa</b>. Untuk mengganti sandi awal, buka <b>Profil &amp; peran</b>.",
           "images": []
         },
         {
@@ -1410,8 +1434,8 @@ const database = {
       "result": "Anda mengenali halaman awal dan tempat melanjutkan pembelajaran.",
       "faq": [
         [
-          "Akun tidak dapat masuk",
-          "Periksa pengetikan akun dan hubungi Admin jika tetap gagal. Jangan memakai akun teman."
+          "Gagal masuk",
+          "Periksa kembali nomor yang terdaftar dan kata sandi. Jika tetap gagal, hubungi Admin madrasah."
         ],
         [
           "Tidak ada pembelajaran yang tampil",
