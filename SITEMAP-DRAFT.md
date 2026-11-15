@@ -2,6 +2,8 @@
 
 Peta navigasi tutorial untuk Guru dan Siswa. Halaman utama membuka panduan Guru. Tombol **Guru** dan **Siswa** berpindah antarperan. Pencarian menyaring topik pada peran yang sedang dipilih.
 
+[Buka bagan Peta Tutorial](https://al-faroz.github.io/sla-sks-tutorial/sitemap.html). Pilih **Guru** atau **Siswa**, lalu klik topik untuk membuka panduan.
+
 ## Guru
 
 ### Mulai di sini

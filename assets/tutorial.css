@@ -758,9 +758,6 @@ dialog .dialog-caption {
   top:0;
   z-index:9
 }
-.top-right>span:first-child {
-  display:none
-}
 .top-right {
   gap:8px
 }
@@ -961,3 +958,24 @@ details p {
 
 }
 
+
+.header-link {
+  flex: none;
+  color: #fff;
+  white-space: nowrap;
+}
+
+@media (max-width: 380px) {
+  .top {
+    gap: 10px;
+    padding-inline: 12px;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .brand small {
+    display: none;
+  }
+}
