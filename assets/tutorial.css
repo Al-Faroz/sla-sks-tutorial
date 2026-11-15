@@ -53,14 +53,11 @@ button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible {
   text-decoration:none
 }
 .logo {
-  display:grid;
-  place-items:center;
-  width:38px;
-  height:38px;
-  border:1px solid #56726e;
-  border-radius:11px;
-  color:#78dfb9;
-  font-weight:800
+  flex:none;
+  display:block;
+  width:40px;
+  height:40px;
+  object-fit:contain
 }
 .brand strong {
   letter-spacing:2px
@@ -761,9 +758,6 @@ dialog .dialog-caption {
   top:0;
   z-index:9
 }
-.top-right>span:first-child {
-  display:none
-}
 .top-right {
   gap:8px
 }
@@ -964,3 +958,24 @@ details p {
 
 }
 
+
+.header-link {
+  flex: none;
+  color: #fff;
+  white-space: nowrap;
+}
+
+@media (max-width: 380px) {
+  .top {
+    gap: 10px;
+    padding-inline: 12px;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .brand small {
+    display: none;
+  }
+}
