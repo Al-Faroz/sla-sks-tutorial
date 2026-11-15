@@ -15,7 +15,32 @@ const database = {
         {
           "title": "Isi Username dan Kata Sandi",
           "text": "Pada kolom <b>Username / NISN</b>, masukkan <b>NIP atau NIK yang terdaftar di madrasah</b>. Saat pertama kali masuk, isi kolom <b>Kata Sandi</b> dengan <b>NIP atau NIK yang sama</b>. Jika sandi sudah diganti, gunakan sandi terbaru.",
-          "images": []
+          "images": [
+            {
+              "file": "UM-01-Login.webp",
+              "caption": "Formulir Masuk SLA-SKS dengan kolom username dan kata sandi.",
+              "pins": [
+                [
+                  59,
+                  49,
+                  "1",
+                  "Username / NISN"
+                ],
+                [
+                  59,
+                  58,
+                  "2",
+                  "Kata Sandi"
+                ],
+                [
+                  59,
+                  65,
+                  "3",
+                  "Masuk"
+                ]
+              ]
+            }
+          ]
         },
         {
           "title": "Klik Masuk dan periksa Beranda Guru",
@@ -1390,7 +1415,32 @@ const database = {
         {
           "title": "Isi Username dan Kata Sandi",
           "text": "Pada kolom <b>Username / NISN</b>, masukkan <b>NISN yang terdaftar di madrasah</b>. Saat pertama kali masuk, isi kolom <b>Kata Sandi</b> dengan <b>NISN yang sama</b>. Jika sandi sudah diganti, gunakan sandi terbaru.",
-          "images": []
+          "images": [
+            {
+              "file": "UM-01-Login.webp",
+              "caption": "Formulir Masuk SLA-SKS dengan kolom username dan kata sandi.",
+              "pins": [
+                [
+                  59,
+                  49,
+                  "1",
+                  "Username / NISN"
+                ],
+                [
+                  59,
+                  58,
+                  "2",
+                  "Kata Sandi"
+                ],
+                [
+                  59,
+                  65,
+                  "3",
+                  "Masuk"
+                ]
+              ]
+            }
+          ]
         },
         {
           "title": "Klik Masuk dan periksa Beranda Siswa",
